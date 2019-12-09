@@ -1,7 +1,7 @@
 # EC2 Instance Rightsizing and Reclamation Dashboard for vRealize Operations 8.0
 ---------
 
-Identify potential rightsizing and reclamation opportunities for EC2 Instances [vRealize Operations](https://www.vmware.com/products/vrealize-operations.html).
+Identify potential rightsizing and reclamation opportunities for EC2 Instances with [vRealize Operations](https://www.vmware.com/products/vrealize-operations.html).
 
 ![EC2 Instance Rightsizing and Reclamation](https://raw.githubusercontent.com/notoriousbdg/vrops-dashboard-ec2_instance_rightsizing_and_reclamation/master/Dashboard.png)
 
