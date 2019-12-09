@@ -1,0 +1,1836 @@
+{
+   "customGroups": [{
+      "resourceKind": "Environment",
+      "membershipDefinition": {"ruleGroups": [
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c3.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c3.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c3.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c3.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c3.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c3.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c3.large"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c3.large"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c3.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c3.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c4.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c4.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c4.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c4.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c4.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c4.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c4.large"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c4.large"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c4.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c4.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c5.18xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c5.18xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c5.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c5.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c5.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c5.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c5.9xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c5.9xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c5.large"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c5.large"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "c5.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "c5.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "cc2.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "cc2.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "d2.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "d2.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "d2.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "d2.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "d2.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "d2.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "d2.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "d2.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "g2.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "g2.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "g2.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "g2.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "g3.16xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "g3.16xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "g3.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "g3.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "g3.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "g3.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "h1.16xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "h1.16xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "h1.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "h1.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "h1.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "h1.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "h1.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "h1.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "hs1.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "hs1.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "i2.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "i2.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "i2.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "i2.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "i2.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "i2.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "i2.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "i2.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "i3.16xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "i3.16xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "i3.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "i3.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "i3.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "i3.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "i3.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "i3.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "i3.large"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "i3.large"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "i3.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "i3.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m3.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m3.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m3.large"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m3.large"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m3.medium"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m3.medium"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m3.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m3.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m4.10xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m4.10xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m4.16xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m4.16xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m4.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m4.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m4.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m4.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m4.large"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m4.large"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m4.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m4.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m5.12xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m5.12xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m5.24xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m5.24xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m5.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m5.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m5.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m5.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m5.large"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m5.large"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "m5.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "m5.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "p2.16xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "p2.16xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "p2.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "p2.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "p2.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "p2.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "p3.16xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "p3.16xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "p3.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "p3.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "p3.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "p3.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "r3.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "r3.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "r3.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "r3.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "r3.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "r3.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "r3.large"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "r3.large"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "r3.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "r3.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "r4.16xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "r4.16xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "r4.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "r4.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "r4.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "r4.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "r4.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "r4.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "r4.large"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "r4.large"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "r4.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "r4.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "t2.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "t2.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "t2.large"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "t2.large"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "t2.medium"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "t2.medium"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "t2.micro"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "t2.micro"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "t2.nano"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "t2.nano"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "t2.small"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "t2.small"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "t2.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "t2.xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "x1.16xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "x1.16xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "x1.32xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "x1.32xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "x1e.16xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "x1e.16xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "x1e.2xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "x1e.2xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "x1e.32xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "x1e.32xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "x1e.4xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "x1e.4xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "x1e.8xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "x1e.8xlarge"
+               }
+            ]
+         },
+         {
+            "resourceKind": "ec2_instance",
+            "adapterKind": "AmazonAWSAdapter",
+            "rules": [
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Instance type",
+                  "isProperty": true,
+                  "ruleStringOperator": "NOT_EQUALS",
+                  "ruleStringValue": "x1e.xlarge"
+               },
+               {
+                  "ruleType": "StringMetricPropertyRule",
+                  "ruleMetricKey": "general|Recommended Instance Type",
+                  "isProperty": true,
+                  "ruleStringOperator": "EQUALS",
+                  "ruleStringValue": "x1e.xlarge"
+               }
+            ]
+         }
+      ]},
+      "adapterKind": "Container",
+      "autoResolveMembership": true,
+      "name": "EC2 Instance RIghtsizing Needed",
+      "description": "",
+      "started": true,
+      "membershipChangeActionInfo": [{
+         "metricPropertyActionDataMetricKey": "CustomProperty|Rightsized",
+         "leaveNumericValue": 1,
+         "membershipChangeActionType": "MetricPropertyData",
+         "isProperty": true,
+         "enterNumericValue": 0
+      }]
+   }],
+   "customGroupTypes": [{
+      "resourceKind": "Environment",
+      "localization": [
+         {
+            "resourceKindName": "Umgebung",
+            "locale": "de"
+         },
+         {
+            "resourceKindName": "環境",
+            "locale": "zh_TW"
+         },
+         {
+            "resourceKindName": "환경",
+            "locale": "ko"
+         },
+         {
+            "resourceKindName": "環境",
+            "locale": "ja"
+         },
+         {
+            "resourceKindName": "Environment",
+            "locale": "en"
+         },
+         {
+            "resourceKindName": "环境",
+            "locale": "zh_CN"
+         },
+         {
+            "resourceKindName": "Environnement",
+            "locale": "fr"
+         },
+         {
+            "resourceKindName": "Entorno",
+            "locale": "es"
+         }
+      ]
+   }]
+}
